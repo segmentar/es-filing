@@ -1,0 +1,25 @@
+﻿
+	O META o no unused namespace(s)
+
+	O TYPE o no unused namesapce(s)
+
+	O LINK o no unused namespace(s)
+
+sequence SFSource
+
+	>Compress
+	<<SourceCompress.cs
+
+	>CompressRaw
+	<<SourceCompressRaw.cs
+
+	>Object
+	>>SourceObject
+	<<<SourceObject.cs
+
+	>Prototype
+	<<SourcePrototype.cs
+
+	<Source.cs
+
+end sequence 
